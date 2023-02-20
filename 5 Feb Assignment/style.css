@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+body{
+    height:100vh;
+    width:100vw;
+    background: url('./assests/bg.png') no-repeat center center/cover;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* .container{
+    display: flex;
+    justify-content: space-between;
+} */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#000000;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 90px;
+    width: 100%;
+    margin: auto;
+    padding: 30px 70px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+nav ul li{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+   
+}
+button{
+    padding: 9px 10px;
+    margin-right: 40px;
+    border: 0px solid white;
+    border-radius: 4px;
+    background-color: #b01ead;
+    color: white;
+    font-weight: 700;
+}
+nav div button{
+    font-size: 13px;
+    padding: 7px 16px;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    
+}
+.hero-section h1{
+    font-size: 55px;
+    margin: 4px;
+    padding-bottom: 3px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.hero-section p{
+    padding-bottom: 29px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.hero-section div button{
+    font-size: 18px;
+    padding: 10px;
+}
